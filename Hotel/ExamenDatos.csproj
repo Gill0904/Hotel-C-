@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C61F5572-66A0-435B-942E-FC8F56F85741}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ExamenDatos</RootNamespace>
+    <AssemblyName>ExamenDatos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actualizar.Designer.cs">
+      <DependentUpon>actualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actualizarHabitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actualizarHabitacion.Designer.cs">
+      <DependentUpon>actualizarHabitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alquilarHabitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alquilarHabitacion.Designer.cs">
+      <DependentUpon>alquilarHabitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="graficas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="graficas.Designer.cs">
+      <DependentUpon>graficas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuevoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuevoUsuario.Designer.cs">
+      <DependentUpon>nuevoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paginaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paginaPrincipal.Designer.cs">
+      <DependentUpon>paginaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="retirar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="retirar.Designer.cs">
+      <DependentUpon>retirar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="actualizar.resx">
+      <DependentUpon>actualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actualizarHabitacion.resx">
+      <DependentUpon>actualizarHabitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alquilarHabitacion.resx">
+      <DependentUpon>alquilarHabitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="graficas.resx">
+      <DependentUpon>graficas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevoUsuario.resx">
+      <DependentUpon>nuevoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paginaPrincipal.resx">
+      <DependentUpon>paginaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="retirar.resx">
+      <DependentUpon>retirar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dllHabitacion\dllHotel.csproj">
+      <Project>{59f0137a-601b-4365-ba8c-d6850cadfc5e}</Project>
+      <Name>dllHotel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

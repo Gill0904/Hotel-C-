@@ -1,0 +1,6 @@
+C:\Users\luisi\Desktop\ExamenDatos.2\ExamenDatos\dllHabitacion\bin\Debug\dllHabitacion.dll
+C:\Users\luisi\Desktop\ExamenDatos.2\ExamenDatos\dllHabitacion\bin\Debug\dllHabitacion.pdb
+C:\Users\luisi\Desktop\ExamenDatos.2\ExamenDatos\dllHabitacion\obj\Debug\dllHabitacion.csprojAssemblyReference.cache
+C:\Users\luisi\Desktop\ExamenDatos.2\ExamenDatos\dllHabitacion\obj\Debug\dllHabitacion.csproj.CoreCompileInputs.cache
+C:\Users\luisi\Desktop\ExamenDatos.2\ExamenDatos\dllHabitacion\obj\Debug\dllHabitacion.dll
+C:\Users\luisi\Desktop\ExamenDatos.2\ExamenDatos\dllHabitacion\obj\Debug\dllHabitacion.pdb
